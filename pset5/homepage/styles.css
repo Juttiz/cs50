@@ -1,0 +1,90 @@
+html,body{
+    height: 100%;
+}
+
+/*section,html{*/
+/*    height: 100%;*/
+/*}*/
+/*.carousel-item {*/
+/*  width: 100%;*/
+  /*height: 600px; */
+/*}*/
+
+/*.carousel-item img {*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  object-fit: cover;*/
+/*}*/
+
+.bg-img{
+    /*background-image: url(https://omatsurijapan.com/wordpress/wp-content/uploads/2019/11/09-1-1200x800.jpg);*/
+    height: 50%;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+
+}
+
+.bg{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(255,255,255,0.4);
+}
+
+.bk{
+    /*background-image: url(http://www.tokyo-skytree.jp/img/img_top_01_sp.jpg);*/
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.carousel-naka {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*.fill{*/
+
+/*    min-height: 100%;*/
+/*    height: 150%;*/
+/*}*/
+
+
+/*target-fix {*/
+/*position: relative;*/
+/*top: -10%;*/
+/*// 偏移为nav被fixed元素的高度*/
+/*display: block;*/
+/*height: 100%;*/
+/*//高度为0*/
+/*overflow: hidden;*/
+/*}*/
+/*html {*/
+/*  font-size: 1rem;*/
+/*}*/
+
+/*@include media-breakpoint-up(sm) {*/
+/*  html {*/
+/*    font-size: 1.2rem;*/
+/*  }*/
+/*}*/
+
+/*@include media-breakpoint-up(md) {*/
+/*  html {*/
+/*    font-size: 1.4rem;*/
+/*  }*/
+/*}*/
+
+/*@include media-breakpoint-up(lg) {*/
+/*  html {*/
+/*    font-size: 1.6rem;*/
+/*  }*/
+/*}*/

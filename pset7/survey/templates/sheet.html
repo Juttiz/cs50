@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <!-- http://getbootstrap.com/docs/4.1/content/typography/ -->
+    <h1 class="mb-3">Sheet</h1>
+
+    <!-- http://getbootstrap.com/docs/4.1/components/forms/ -->
+    <table class = "table table-hover">
+      <tbody class = "align-middle">
+        {% for mb in mbs %}
+          <tr class = "text-center">
+            <td >{{mb[1]}}</td>
+            <td >{{mb[2]}}</td>
+            <td >{{mb[3]}}</td>
+            <td >{{mb[4]}}</td>
+            <td >{{mb[5]}}</td>
+            <td >{{mb[6]}}</td>
+            <td >{{mb[7]}}</td>
+            <td >{{mb[8]}}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <script>
+
+        /* TODO */
+
+    </script>
+
+{% endblock %}

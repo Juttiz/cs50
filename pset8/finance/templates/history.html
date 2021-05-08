@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Buy/Sell</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Transcated</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for history in histories %}
+                <tr>
+                    <th>{{history.symbol}}</th>
+                    <th>{% if history.share>0 %}BUY{% else %}SELL{% endif %}</th>
+                    <th>{{ history.share|abs() }}</th>
+                    <th>{{ history.price|usd() }}</th>
+                    <th>{{ history.time_stamp }}</th>
+                </tr>
+            {% endfor %}
+        </tbody>
+
+      </table>
+    </div>
+
+
+{% endblock %}
